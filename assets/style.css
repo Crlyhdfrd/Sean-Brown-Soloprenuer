@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+
+  body {
+  background-color: rgb(70, 167, 241);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header {
+  height: 70px;
+  background-color: aliceblue;
+}
+.nav-links,  {
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.button{
+  transition-duration: 0.9s;
+}
+
+.b1, .b2, .b3 :hover {
+  background-color: rgb(62, 62, 62);
+  border: bisque
+}
+
+.b1,
+.b2,
+.b3 {
+  transition-duration: 0s;
+  margin-left: 1790px;
+  background-color: bisque;
+  padding: 10px, 24px;
+  border-radius: 15px;
+  border: 2px solid rgb(62, 62, 62)
+}
+
+.AboutMe,
+.Work,
+.Contact {
+display: flex;
+text-align: center;
+font-size: 25px;
+font-style: italic;
+font-family: cursive;
+margin-left: 200px;
+}
+
+.topheader {
+background-color: bisque;
+text-align: right;
+border-radius: 40px;
+}
+
+.paragraph, 
+.greeting {
+font-size: 25px;
+font-style: italic;
+font-family: cursive;
+display: flex;
+color: rgb(62, 62, 62);
+width: 1000px;
+margin: right;
+}
+
+h1 {
+  padding-top: 70px;
+  font-size: 45px;
+  font-family: cursive;
+  background-color: beige;
+  margin: right;
+  font-style: italic;
+  color: rgb(62, 62, 62);
+}
+
+h2 {
+  padding-top: 70px;
+  font-size: 45px;
+  font-family: cursive;
+  background-color: rgb(70, 167, 241);
+  margin: auto;
+  font-style: italic;
+  color: rgb(62, 62, 62);
+}
+
+.aside {
+  background-size: 120px;
+  height: 120px;
+}
+
+.img {
+  margin-left: 1200px;
+  width: 100px;
+  padding: 1;
+  display: flex;
+}
+
+.work {
+  margin-top: 30px;
+  display: flex;
+}
+
+.p2 {
+  font-size: 25px;
+  font-family: cursive;
+  color: rgb(62, 62, 62);
+}
