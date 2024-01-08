@@ -54,14 +54,25 @@ text-align: right;
 border-radius: 40px;
 }
 
-.paragraph, 
+.paragraph{
+  font-size: 35px;
+  font-style: italic;
+  font-family: cursive;
+  display: flex;
+  color: rgb(62, 62, 62);
+  width: fit-content;
+  height: 500px;
+  margin: right;
+} 
+
 .greeting {
-font-size: 25px;
+font-size: 35px;
 font-style: italic;
 font-family: cursive;
 display: flex;
 color: rgb(62, 62, 62);
-width: 1000px;
+width: 600px;
+height: 200px;
 margin: right;
 }
 
@@ -83,16 +94,16 @@ h2 {
   color: rgb(62, 62, 62);
 }
 
-.aside {
-  background-size: 120px;
-  height: 120px;
-}
-
 .img {
   width: 400px;
   padding: 20px;
   float: left;
 }
+
+.img2{
+  width: 650px;
+}
+
 
 #work {
   clear: both;
