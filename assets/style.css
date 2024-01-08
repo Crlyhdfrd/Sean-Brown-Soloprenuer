@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 1px solid black;
-}
+
 
   body {
   background-color: rgb(70, 167, 241);
@@ -94,6 +90,13 @@ h2 {
   color: rgb(62, 62, 62);
 }
 
+.cs,
+.bh {
+  font-size: 35px;
+  font-family: cursive;
+  font-style: italic;
+}
+
 .img {
   width: 400px;
   padding: 20px;
@@ -101,6 +104,10 @@ h2 {
 }
 
 .img2{
+  width: 550px;
+}
+
+.img3 {
   width: 650px;
 }
 
