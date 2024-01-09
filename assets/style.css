@@ -14,12 +14,7 @@ html {
 }
 
 .button{
-  transition-duration: 0.9s;
-}
-
-.b1, .b2, .b3 :hover {
-  background-color: rgb(62, 62, 62);
-  border: bisque
+  transition-duration: 0s;
 }
 
 .b1,
