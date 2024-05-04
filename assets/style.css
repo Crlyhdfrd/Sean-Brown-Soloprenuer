@@ -12,6 +12,10 @@ html {
   height: 70px;
   background-color: aliceblue;
 }
+section {
+  padding: 8%;
+  box-sizing: border-box;
+}
 
 ul {
   position: fixed;
@@ -50,7 +54,11 @@ li a:hover {
   border: 2px solid rgb(62, 62, 62)
 }
 
-.AboutMe,
+#AboutMe {
+gap: 50px;
+}
+
+#AboutMe,
 .Work,
 .Contact {
 display: flex;
@@ -58,7 +66,7 @@ text-align: center;
 font-size: 25px;
 font-style: italic;
 font-family: cursive;
-margin-left: 200px;
+/* margin-left: 200px; */
 }
 
 .topheader {
@@ -114,10 +122,26 @@ h2 {
   font-style: italic;
 }
 
-.img {
+.text-container {
+  width: 60%;
+  text-align: left;
+}
+
+#AboutMe .img-container {
+  padding-top: 400px;
   width: 400px;
   padding: 20px;
-  float: left;
+  position: relative;
+}
+
+
+#AboutMe .img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center; 
+  width: 100%;
 }
 
 .img2{
@@ -135,6 +159,8 @@ h2 {
 
 .glow {
   font-size: 25px;
+  width: fit-content;
+  margin: auto;
   font-family: cursive;
   color: rgb(62, 62, 62);
   color: #fff;
@@ -146,10 +172,21 @@ h2 {
 
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8200e6, 0 0 40px #bc00e6, 0 0 50px #de00e6, 0 0 60px #db00e6, 0 0 70px #9900e6;
+      text-shadow: 0 0 10px #fff, 0 0 30px #8200e6;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #d34dff, 0 0 40px #e74dff, 0 0 50px #e74dff, 0 0 60px #e74dff, 0 0 70px #ff4dff, 0 0 80px #ff4df6;
+      text-shadow: 0 0 60px #e74dff, 0 0 80px #ff4df6;
+    }
+  }
+
+  @-webkit-keyframes glownew {
+    from {
+      background-color: gray;
+      box-shadow: 0 0 10px 20px gray;
+    }
+    to {
+      background-color: #9900e6;
+      box-shadow: 0 0 20px 30px #9900e6;
     }
   }
 
